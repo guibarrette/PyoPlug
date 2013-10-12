@@ -417,7 +417,15 @@ class Server(object):
         """
         Boot the server. Must be called before defining any signal processing 
         chain. Server's parameters like `samplingrate`, `buffersize` or 
-        `nchnls` will be effective after a call to this method.
+        `nchnls` will be effective after a call to this method. 
+        
+        :Args:
+            
+            newBuffer : bool
+                Specify if the buffers need to be allocated or not. Useful to limit the allocation 
+                of new buffers when the buffer size hasn't change. Therefore, this is useful to limit 
+                calls to the Python interpreter to get the buffers addresses when using Pyo inside a 
+                C/C++ application with the embedded server. Defaults to True.
 
         """
         self._server.boot(newBuffer)
