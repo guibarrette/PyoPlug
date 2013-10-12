@@ -1,0 +1,1385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F4476C1A093DDA87008998C4 /* all */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F4476C2A093DDACE008998C4 /* Build configuration list for PBXAggregateTarget "all" */;
+			buildPhases = (
+			);
+			dependencies = (
+				A417D5DA17F1DC3D0054BEC0 /* PBXTargetDependency */,
+				A4D8F63117D4274100BC7BB7 /* PBXTargetDependency */,
+				A4D8F63317D4274100BC7BB7 /* PBXTargetDependency */,
+			);
+			name = all;
+			productName = all;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A417D5C117F1D7390054BEC0 /* pyoplug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD222517BAF20000B99058 /* pyoplug.cpp */; };
+		A417D5C517F1D7390054BEC0 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */; };
+		A417D5C617F1D7390054BEC0 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3A4E7175E4B28002C14A0 /* Python.framework */; };
+		A417D5D217F1D7790054BEC0 /* pyoplugmax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A417D5D017F1D7730054BEC0 /* pyoplugmax.cpp */; };
+		A417D5D817F1D9B80054BEC0 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A417D5D117F1D7730054BEC0 /* MaxAudioAPI.framework */; };
+		A41AD02017FCA1A000AE5D98 /* pyoplugpd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4C4C64917FC5DC7003CFAA7 /* pyoplugpd.cpp */; };
+		A41AD02117FCA23B00AE5D98 /* pyoplug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD222517BAF20000B99058 /* pyoplug.cpp */; };
+		A41AD02D17FCA6FC00AE5D98 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */; };
+		A41AD02E17FCA70000AE5D98 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3A4E7175E4B28002C14A0 /* Python.framework */; };
+		A42F4BA117BAB00200AFF0EE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D46176AB4680058B652 /* CoreData.framework */; };
+		A42F4BA217BAB00200AFF0EE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D43176A877C0058B652 /* Cocoa.framework */; };
+		A42F4BA317BAB00200AFF0EE /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */; };
+		A42F4BA417BAB00200AFF0EE /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3A4E7175E4B28002C14A0 /* Python.framework */; };
+		A42F4BA617BAB00200AFF0EE /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		A42F4BAE17BAB18600AFF0EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42F4BAD17BAB18500AFF0EE /* AudioToolbox.framework */; };
+		A42F4BB017BAB18E00AFF0EE /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42F4BAF17BAB18E00AFF0EE /* AudioUnit.framework */; };
+		A42F4BB217BAB19700AFF0EE /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42F4BB117BAB19700AFF0EE /* CoreServices.framework */; };
+		A42F4BB817BAB24F00AFF0EE /* PyoPlugAU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BB317BAB24F00AFF0EE /* PyoPlugAU.cpp */; };
+		A42F4BD017BAB82E00AFF0EE /* CAAUParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BC517BAB82E00AFF0EE /* CAAUParameter.cpp */; };
+		A42F4BD117BAB82E00AFF0EE /* CAAUParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BC617BAB82E00AFF0EE /* CAAUParameter.h */; };
+		A42F4BD217BAB82E00AFF0EE /* CAAudioChannelLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BC717BAB82E00AFF0EE /* CAAudioChannelLayout.cpp */; };
+		A42F4BD317BAB82E00AFF0EE /* CAAudioChannelLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BC817BAB82E00AFF0EE /* CAAudioChannelLayout.h */; };
+		A42F4BD417BAB82E00AFF0EE /* CAMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BC917BAB82E00AFF0EE /* CAMutex.cpp */; };
+		A42F4BD517BAB82E00AFF0EE /* CAMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BCA17BAB82E00AFF0EE /* CAMutex.h */; };
+		A42F4BD617BAB82E00AFF0EE /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BCB17BAB82E00AFF0EE /* CAStreamBasicDescription.cpp */; };
+		A42F4BD717BAB82E00AFF0EE /* CAStreamBasicDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BCC17BAB82E00AFF0EE /* CAStreamBasicDescription.h */; };
+		A42F4BD817BAB82E00AFF0EE /* CAVectorUnitTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BCD17BAB82E00AFF0EE /* CAVectorUnitTypes.h */; };
+		A42F4BD917BAB82E00AFF0EE /* CAVectorUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BCE17BAB82E00AFF0EE /* CAVectorUnit.cpp */; };
+		A42F4BDA17BAB82E00AFF0EE /* CAVectorUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BCF17BAB82E00AFF0EE /* CAVectorUnit.h */; };
+		A42F4BE817BAB84800AFF0EE /* AUBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BDB17BAB84800AFF0EE /* AUBase.cpp */; };
+		A42F4BE917BAB84800AFF0EE /* AUBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BDC17BAB84800AFF0EE /* AUBase.h */; };
+		A42F4BEA17BAB84800AFF0EE /* AUDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BDD17BAB84800AFF0EE /* AUDispatch.cpp */; };
+		A42F4BEB17BAB84800AFF0EE /* AUDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BDE17BAB84800AFF0EE /* AUDispatch.h */; };
+		A42F4BEC17BAB84800AFF0EE /* AUInputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BDF17BAB84800AFF0EE /* AUInputElement.cpp */; };
+		A42F4BED17BAB84800AFF0EE /* AUInputElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BE017BAB84800AFF0EE /* AUInputElement.h */; };
+		A42F4BEE17BAB84800AFF0EE /* AUOutputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BE117BAB84800AFF0EE /* AUOutputElement.cpp */; };
+		A42F4BEF17BAB84800AFF0EE /* AUOutputElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BE217BAB84800AFF0EE /* AUOutputElement.h */; };
+		A42F4BF117BAB84800AFF0EE /* AUScopeElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BE417BAB84800AFF0EE /* AUScopeElement.cpp */; };
+		A42F4BF217BAB84800AFF0EE /* AUScopeElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BE517BAB84800AFF0EE /* AUScopeElement.h */; };
+		A42F4BF317BAB84800AFF0EE /* ComponentBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BE617BAB84800AFF0EE /* ComponentBase.cpp */; };
+		A42F4BF417BAB84800AFF0EE /* ComponentBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BE717BAB84800AFF0EE /* ComponentBase.h */; };
+		A42F4BF717BAB85400AFF0EE /* AUEffectBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BF517BAB85400AFF0EE /* AUEffectBase.cpp */; };
+		A42F4BF817BAB85400AFF0EE /* AUEffectBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BF617BAB85400AFF0EE /* AUEffectBase.h */; };
+		A42F4C0017BAB86100AFF0EE /* AUBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BF917BAB86100AFF0EE /* AUBuffer.cpp */; };
+		A42F4C0117BAB86100AFF0EE /* AUBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BFA17BAB86100AFF0EE /* AUBuffer.h */; };
+		A42F4C0217BAB86100AFF0EE /* AUDebugDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4BFB17BAB86100AFF0EE /* AUDebugDispatcher.cpp */; };
+		A42F4C0317BAB86100AFF0EE /* AUDebugDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BFC17BAB86100AFF0EE /* AUDebugDispatcher.h */; };
+		A42F4C0417BAB86100AFF0EE /* AUInputFormatConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BFD17BAB86100AFF0EE /* AUInputFormatConverter.h */; };
+		A42F4C0517BAB86100AFF0EE /* AUSilentTimeout.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BFE17BAB86100AFF0EE /* AUSilentTimeout.h */; };
+		A42F4C0617BAB86100AFF0EE /* AUTimestampGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BFF17BAB86100AFF0EE /* AUTimestampGenerator.h */; };
+		A42F4C0817BAB99E00AFF0EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A42F4B9117BAA5D800AFF0EE /* InfoPlist.strings */; };
+		A42F4C0A17BABE0E00AFF0EE /* PyoPlugAU.r in Rez */ = {isa = PBXBuildFile; fileRef = A42F4BB617BAB24F00AFF0EE /* PyoPlugAU.r */; };
+		A42F4C0D17BAC0F400AFF0EE /* PyoPlugAUVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BB717BAB24F00AFF0EE /* PyoPlugAUVersion.h */; };
+		A42F4C1017BAC14300AFF0EE /* AUBaseHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42F4C0E17BAC14300AFF0EE /* AUBaseHelper.cpp */; };
+		A42F4C1117BAC14300AFF0EE /* AUBaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4C0F17BAC14300AFF0EE /* AUBaseHelper.h */; };
+		A45161EF17618F90006A0CD4 /* audioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF51C50929F9C100DDED7A /* audioeffect.cpp */; };
+		A45161F017618F90006A0CD4 /* audioeffectx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF51C70929F9C100DDED7A /* audioeffectx.cpp */; };
+		A45161F117618F90006A0CD4 /* vstplugmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF51C90929F9C100DDED7A /* vstplugmain.cpp */; };
+		A45161F317618F90006A0CD4 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3A4E7175E4B28002C14A0 /* Python.framework */; };
+		A45161FD1761900D006A0CD4 /* pyoplugVST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A45161FA1761900D006A0CD4 /* pyoplugVST.cpp */; };
+		A47F3C0317BC1BF1001FEC19 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4476B78093DD675008998C4 /* QuickTime.framework */; };
+		A47F3C0C17BC2AEE001FEC19 /* pyoplug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD222517BAF20000B99058 /* pyoplug.cpp */; };
+		A47F3C0D17BC2AFD001FEC19 /* pyoplug.h in Headers */ = {isa = PBXBuildFile; fileRef = A4AD222617BAF20000B99058 /* pyoplug.h */; };
+		A47F3C0E17BC2BDE001FEC19 /* PyoPlugAU.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BB517BAB24F00AFF0EE /* PyoPlugAU.h */; };
+		A47F3C0F17BC2BEC001FEC19 /* PyoPlugAU-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A42F4B9017BAA5D800AFF0EE /* PyoPlugAU-Info.plist */; };
+		A47F3C1617BC4E28001FEC19 /* pyoplug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD222517BAF20000B99058 /* pyoplug.cpp */; };
+		A4B75D41176A86220058B652 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4476B78093DD675008998C4 /* QuickTime.framework */; };
+		A4B75D44176A877D0058B652 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D43176A877C0058B652 /* Cocoa.framework */; };
+		A4B75D45176A87A20058B652 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		A4B75D47176AB4690058B652 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D46176AB4680058B652 /* CoreData.framework */; };
+		A4E3B3AC1763DC96007937D1 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */; };
+		F4EF438E0945D9CD001938AB /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		F4FF52FC092A314700DDED7A /* minihost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF52FA092A314700DDED7A /* minihost.cpp */; };
+		F4FF533D092A371400DDED7A /* minieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF52F9092A314700DDED7A /* minieditor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A417D5D917F1DC3D0054BEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A417D5BA17F1D7390054BEC0;
+			remoteInfo = pyoplugMax;
+		};
+		A4D8F63017D4274100BC7BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A45161EB17618F90006A0CD4;
+			remoteInfo = pyoplugVST;
+		};
+		A4D8F63217D4274100BC7BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42F4B9917BAB00200AFF0EE;
+			remoteInfo = pyoplugAU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		A400A5A617D57DFE00E4D279 /* ScriptsPresets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScriptsPresets-Info.plist"; sourceTree = "<group>"; };
+		A400A5A817D57DFE00E4D279 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A400A5AA17D57DFE00E4D279 /* ScriptsPresets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScriptsPresets-Prefix.pch"; sourceTree = "<group>"; };
+		A417D5CD17F1D7390054BEC0 /* pyoplug~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pyoplug~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A417D5CF17F1D7730054BEC0 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = maxmspsdk.xcconfig; path = PyoPlugMax/maxmspsdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		A417D5D017F1D7730054BEC0 /* pyoplugmax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pyoplugmax.cpp; path = PyoPlugMax/pyoplugmax.cpp; sourceTree = SOURCE_ROOT; };
+		A417D5D117F1D7730054BEC0 /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = "../../../../../../../Git/Max/Max6-SDK/c74support/msp-includes/MaxAudioAPI.framework"; sourceTree = "<group>"; };
+		A41AD01317FC9E7B00AE5D98 /* pyoplugpd.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = pyoplugpd.xcconfig; path = PyoPlugPd/pyoplugpd.xcconfig; sourceTree = SOURCE_ROOT; };
+		A41AD01C17FCA16B00AE5D98 /* pyoplug~.pd_darwin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "pyoplug~.pd_darwin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42F4B8817BAA5D800AFF0EE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A42F4B8B17BAA5D800AFF0EE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A42F4B8C17BAA5D800AFF0EE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A42F4B8D17BAA5D800AFF0EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A42F4B9017BAA5D800AFF0EE /* PyoPlugAU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PyoPlugAU-Info.plist"; sourceTree = "<group>"; };
+		A42F4B9217BAA5D800AFF0EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A42F4B9417BAA5D800AFF0EE /* PyoPlugAU-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PyoPlugAU-Prefix.pch"; sourceTree = "<group>"; };
+		A42F4BAB17BAB00200AFF0EE /* pyoplug.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pyoplug.component; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42F4BAD17BAB18500AFF0EE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A42F4BAF17BAB18E00AFF0EE /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		A42F4BB117BAB19700AFF0EE /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		A42F4BB317BAB24F00AFF0EE /* PyoPlugAU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PyoPlugAU.cpp; sourceTree = "<group>"; };
+		A42F4BB417BAB24F00AFF0EE /* PyoPlugAU.exp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.exports; path = PyoPlugAU.exp; sourceTree = "<group>"; };
+		A42F4BB517BAB24F00AFF0EE /* PyoPlugAU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyoPlugAU.h; sourceTree = "<group>"; };
+		A42F4BB617BAB24F00AFF0EE /* PyoPlugAU.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = PyoPlugAU.r; sourceTree = "<group>"; };
+		A42F4BB717BAB24F00AFF0EE /* PyoPlugAUVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyoPlugAUVersion.h; sourceTree = "<group>"; };
+		A42F4BC517BAB82E00AFF0EE /* CAAUParameter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CAAUParameter.cpp; path = PublicUtility/CAAUParameter.cpp; sourceTree = "<group>"; };
+		A42F4BC617BAB82E00AFF0EE /* CAAUParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CAAUParameter.h; path = PublicUtility/CAAUParameter.h; sourceTree = "<group>"; };
+		A42F4BC717BAB82E00AFF0EE /* CAAudioChannelLayout.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CAAudioChannelLayout.cpp; path = PublicUtility/CAAudioChannelLayout.cpp; sourceTree = "<group>"; };
+		A42F4BC817BAB82E00AFF0EE /* CAAudioChannelLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CAAudioChannelLayout.h; path = PublicUtility/CAAudioChannelLayout.h; sourceTree = "<group>"; };
+		A42F4BC917BAB82E00AFF0EE /* CAMutex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CAMutex.cpp; path = PublicUtility/CAMutex.cpp; sourceTree = "<group>"; };
+		A42F4BCA17BAB82E00AFF0EE /* CAMutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CAMutex.h; path = PublicUtility/CAMutex.h; sourceTree = "<group>"; };
+		A42F4BCB17BAB82E00AFF0EE /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CAStreamBasicDescription.cpp; path = PublicUtility/CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		A42F4BCC17BAB82E00AFF0EE /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CAStreamBasicDescription.h; path = PublicUtility/CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		A42F4BCD17BAB82E00AFF0EE /* CAVectorUnitTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CAVectorUnitTypes.h; path = PublicUtility/CAVectorUnitTypes.h; sourceTree = "<group>"; };
+		A42F4BCE17BAB82E00AFF0EE /* CAVectorUnit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CAVectorUnit.cpp; path = PublicUtility/CAVectorUnit.cpp; sourceTree = "<group>"; };
+		A42F4BCF17BAB82E00AFF0EE /* CAVectorUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CAVectorUnit.h; path = PublicUtility/CAVectorUnit.h; sourceTree = "<group>"; };
+		A42F4BDB17BAB84800AFF0EE /* AUBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AUBase.cpp; path = AudioUnits/AUPublic/AUBase/AUBase.cpp; sourceTree = "<group>"; };
+		A42F4BDC17BAB84800AFF0EE /* AUBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUBase.h; path = AudioUnits/AUPublic/AUBase/AUBase.h; sourceTree = "<group>"; };
+		A42F4BDD17BAB84800AFF0EE /* AUDispatch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AUDispatch.cpp; path = AudioUnits/AUPublic/AUBase/AUDispatch.cpp; sourceTree = "<group>"; };
+		A42F4BDE17BAB84800AFF0EE /* AUDispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUDispatch.h; path = AudioUnits/AUPublic/AUBase/AUDispatch.h; sourceTree = "<group>"; };
+		A42F4BDF17BAB84800AFF0EE /* AUInputElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AUInputElement.cpp; path = AudioUnits/AUPublic/AUBase/AUInputElement.cpp; sourceTree = "<group>"; };
+		A42F4BE017BAB84800AFF0EE /* AUInputElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUInputElement.h; path = AudioUnits/AUPublic/AUBase/AUInputElement.h; sourceTree = "<group>"; };
+		A42F4BE117BAB84800AFF0EE /* AUOutputElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AUOutputElement.cpp; path = AudioUnits/AUPublic/AUBase/AUOutputElement.cpp; sourceTree = "<group>"; };
+		A42F4BE217BAB84800AFF0EE /* AUOutputElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUOutputElement.h; path = AudioUnits/AUPublic/AUBase/AUOutputElement.h; sourceTree = "<group>"; };
+		A42F4BE317BAB84800AFF0EE /* AUResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = AUResources.r; path = AudioUnits/AUPublic/AUBase/AUResources.r; sourceTree = "<group>"; };
+		A42F4BE417BAB84800AFF0EE /* AUScopeElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AUScopeElement.cpp; path = AudioUnits/AUPublic/AUBase/AUScopeElement.cpp; sourceTree = "<group>"; };
+		A42F4BE517BAB84800AFF0EE /* AUScopeElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUScopeElement.h; path = AudioUnits/AUPublic/AUBase/AUScopeElement.h; sourceTree = "<group>"; };
+		A42F4BE617BAB84800AFF0EE /* ComponentBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ComponentBase.cpp; path = AudioUnits/AUPublic/AUBase/ComponentBase.cpp; sourceTree = "<group>"; };
+		A42F4BE717BAB84800AFF0EE /* ComponentBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ComponentBase.h; path = AudioUnits/AUPublic/AUBase/ComponentBase.h; sourceTree = "<group>"; };
+		A42F4BF517BAB85400AFF0EE /* AUEffectBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AUEffectBase.cpp; path = AudioUnits/AUPublic/OtherBases/AUEffectBase.cpp; sourceTree = "<group>"; };
+		A42F4BF617BAB85400AFF0EE /* AUEffectBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUEffectBase.h; path = AudioUnits/AUPublic/OtherBases/AUEffectBase.h; sourceTree = "<group>"; };
+		A42F4BF917BAB86100AFF0EE /* AUBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AUBuffer.cpp; path = AudioUnits/AUPublic/Utility/AUBuffer.cpp; sourceTree = "<group>"; };
+		A42F4BFA17BAB86100AFF0EE /* AUBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUBuffer.h; path = AudioUnits/AUPublic/Utility/AUBuffer.h; sourceTree = "<group>"; };
+		A42F4BFB17BAB86100AFF0EE /* AUDebugDispatcher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AUDebugDispatcher.cpp; path = AudioUnits/AUPublic/Utility/AUDebugDispatcher.cpp; sourceTree = "<group>"; };
+		A42F4BFC17BAB86100AFF0EE /* AUDebugDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUDebugDispatcher.h; path = AudioUnits/AUPublic/Utility/AUDebugDispatcher.h; sourceTree = "<group>"; };
+		A42F4BFD17BAB86100AFF0EE /* AUInputFormatConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUInputFormatConverter.h; path = AudioUnits/AUPublic/Utility/AUInputFormatConverter.h; sourceTree = "<group>"; };
+		A42F4BFE17BAB86100AFF0EE /* AUSilentTimeout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUSilentTimeout.h; path = AudioUnits/AUPublic/Utility/AUSilentTimeout.h; sourceTree = "<group>"; };
+		A42F4BFF17BAB86100AFF0EE /* AUTimestampGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUTimestampGenerator.h; path = AudioUnits/AUPublic/Utility/AUTimestampGenerator.h; sourceTree = "<group>"; };
+		A42F4C0E17BAC14300AFF0EE /* AUBaseHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AUBaseHelper.cpp; path = AudioUnits/AUPublic/Utility/AUBaseHelper.cpp; sourceTree = "<group>"; };
+		A42F4C0F17BAC14300AFF0EE /* AUBaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AUBaseHelper.h; path = AudioUnits/AUPublic/Utility/AUBaseHelper.h; sourceTree = "<group>"; };
+		A42F4C1417BAE23E00AFF0EE /* vst2.4Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = vst2.4Info.plist; path = vstsdk2.4/public.sdk/samples/vst2.x/mac/vst2.4Info.plist; sourceTree = "<group>"; };
+		A45161F717618F90006A0CD4 /* pyoplug.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pyoplug.vst; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45161FA1761900D006A0CD4 /* pyoplugVST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pyoplugVST.cpp; sourceTree = "<group>"; };
+		A45161FB1761900D006A0CD4 /* pyoplugVST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyoplugVST.h; sourceTree = "<group>"; };
+		A464F1A117D5716900FFD226 /* ScriptsPresets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ScriptsPresets; sourceTree = "<group>"; };
+		A4AD222317BAF0DD00B99058 /* PyoPlugVSTInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PyoPlugVSTInfo.plist; sourceTree = "<group>"; };
+		A4AD222517BAF20000B99058 /* pyoplug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pyoplug.cpp; sourceTree = "<group>"; };
+		A4AD222617BAF20000B99058 /* pyoplug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyoplug.h; sourceTree = "<group>"; };
+		A4B75D3A176A83850058B652 /* pyoeditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pyoeditor.cpp; path = editor/pyoeditor.cpp; sourceTree = "<group>"; };
+		A4B75D3B176A83850058B652 /* pyoeditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyoeditor.h; path = editor/pyoeditor.h; sourceTree = "<group>"; };
+		A4B75D43176A877C0058B652 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A4B75D46176AB4680058B652 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A4C4C64817FC5DC7003CFAA7 /* m_pd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = m_pd.h; path = PyoPlugPd/m_pd.h; sourceTree = SOURCE_ROOT; };
+		A4C4C64917FC5DC7003CFAA7 /* pyoplugpd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pyoplugpd.cpp; path = PyoPlugPd/pyoplugpd.cpp; sourceTree = SOURCE_ROOT; };
+		A4D6A9C9176BEBD5008F75AC /* PyoPlugVST_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyoPlugVST_Prefix.pch; sourceTree = "<group>"; };
+		A4E3A4E7175E4B28002C14A0 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
+		A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblo.7.dylib; path = usr/local/lib/liblo.7.dylib; sourceTree = SDKROOT; };
+		F4476AAC093DD4FB008998C4 /* aeffguieditor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = aeffguieditor.cpp; path = PyoPlugVST/vstsdk2.4/vstgui.sf/vstgui/aeffguieditor.cpp; sourceTree = SOURCE_ROOT; };
+		F4476AAD093DD4FB008998C4 /* vstcontrols.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstcontrols.cpp; path = PyoPlugVST/vstsdk2.4/vstgui.sf/vstgui/vstcontrols.cpp; sourceTree = SOURCE_ROOT; };
+		F4476AAE093DD4FB008998C4 /* vstgui.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstgui.cpp; path = PyoPlugVST/vstsdk2.4/vstgui.sf/vstgui/vstgui.cpp; sourceTree = SOURCE_ROOT; };
+		F4476B78093DD675008998C4 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		F4476B8B093DD81B008998C4 /* bmp00128.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = bmp00128.bmp; path = PyoPlugVST/editor/resources/bmp00128.bmp; sourceTree = SOURCE_ROOT; };
+		F4476B8C093DD81B008998C4 /* bmp00129.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = bmp00129.bmp; path = PyoPlugVST/editor/resources/bmp00129.bmp; sourceTree = SOURCE_ROOT; };
+		F4476B8D093DD81B008998C4 /* bmp00130.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = bmp00130.bmp; path = PyoPlugVST/editor/resources/bmp00130.bmp; sourceTree = SOURCE_ROOT; };
+		F4FF51C40929F9C100DDED7A /* aeffeditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = aeffeditor.h; path = PyoPlugVST/vstsdk2.4/public.sdk/source/vst2.x/aeffeditor.h; sourceTree = SOURCE_ROOT; };
+		F4FF51C50929F9C100DDED7A /* audioeffect.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = audioeffect.cpp; path = PyoPlugVST/vstsdk2.4/public.sdk/source/vst2.x/audioeffect.cpp; sourceTree = SOURCE_ROOT; };
+		F4FF51C60929F9C100DDED7A /* audioeffect.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = audioeffect.h; path = PyoPlugVST/vstsdk2.4/public.sdk/source/vst2.x/audioeffect.h; sourceTree = SOURCE_ROOT; };
+		F4FF51C70929F9C100DDED7A /* audioeffectx.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = audioeffectx.cpp; path = PyoPlugVST/vstsdk2.4/public.sdk/source/vst2.x/audioeffectx.cpp; sourceTree = SOURCE_ROOT; };
+		F4FF51C80929F9C100DDED7A /* audioeffectx.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = audioeffectx.h; path = PyoPlugVST/vstsdk2.4/public.sdk/source/vst2.x/audioeffectx.h; sourceTree = SOURCE_ROOT; };
+		F4FF51C90929F9C100DDED7A /* vstplugmain.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstplugmain.cpp; path = PyoPlugVST/vstsdk2.4/public.sdk/source/vst2.x/vstplugmain.cpp; sourceTree = SOURCE_ROOT; };
+		F4FF51CE0929F9D900DDED7A /* aeffect.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = aeffect.h; path = PyoPlugVST/vstsdk2.4/pluginterfaces/vst2.x/aeffect.h; sourceTree = SOURCE_ROOT; };
+		F4FF51CF0929F9D900DDED7A /* aeffectx.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = aeffectx.h; path = PyoPlugVST/vstsdk2.4/pluginterfaces/vst2.x/aeffectx.h; sourceTree = SOURCE_ROOT; };
+		F4FF51D00929F9D900DDED7A /* vstfxstore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstfxstore.h; path = PyoPlugVST/vstsdk2.4/pluginterfaces/vst2.x/vstfxstore.h; sourceTree = SOURCE_ROOT; };
+		F4FF52F3092A312800DDED7A /* minihost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minihost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FF52F5092A312800DDED7A /* minihost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "minihost-Info.plist"; path = "vstsdk2.4/public.sdk/samples/vst2.x/mac/minihost-Info.plist"; sourceTree = "<group>"; };
+		F4FF52F9092A314700DDED7A /* minieditor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = minieditor.cpp; path = PyoPlugVST/vstsdk2.4/public.sdk/samples/vst2.x/minihost/source/minieditor.cpp; sourceTree = SOURCE_ROOT; };
+		F4FF52FA092A314700DDED7A /* minihost.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = minihost.cpp; path = PyoPlugVST/vstsdk2.4/public.sdk/samples/vst2.x/minihost/source/minihost.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A417D5C217F1D7390054BEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A417D5C517F1D7390054BEC0 /* liblo.7.dylib in Frameworks */,
+				A417D5C617F1D7390054BEC0 /* Python.framework in Frameworks */,
+				A417D5D817F1D9B80054BEC0 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41AD01917FCA16B00AE5D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41AD02D17FCA6FC00AE5D98 /* liblo.7.dylib in Frameworks */,
+				A41AD02E17FCA70000AE5D98 /* Python.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42F4BA017BAB00200AFF0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42F4BB217BAB19700AFF0EE /* CoreServices.framework in Frameworks */,
+				A42F4BB017BAB18E00AFF0EE /* AudioUnit.framework in Frameworks */,
+				A42F4BAE17BAB18600AFF0EE /* AudioToolbox.framework in Frameworks */,
+				A42F4BA117BAB00200AFF0EE /* CoreData.framework in Frameworks */,
+				A42F4BA217BAB00200AFF0EE /* Cocoa.framework in Frameworks */,
+				A42F4BA317BAB00200AFF0EE /* liblo.7.dylib in Frameworks */,
+				A42F4BA417BAB00200AFF0EE /* Python.framework in Frameworks */,
+				A42F4BA617BAB00200AFF0EE /* Carbon.framework in Frameworks */,
+				A47F3C0317BC1BF1001FEC19 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45161F217618F90006A0CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B75D47176AB4690058B652 /* CoreData.framework in Frameworks */,
+				A4B75D44176A877D0058B652 /* Cocoa.framework in Frameworks */,
+				A4E3B3AC1763DC96007937D1 /* liblo.7.dylib in Frameworks */,
+				A45161F317618F90006A0CD4 /* Python.framework in Frameworks */,
+				A4B75D41176A86220058B652 /* QuickTime.framework in Frameworks */,
+				A4B75D45176A87A20058B652 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FF52F1092A312800DDED7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EF438E0945D9CD001938AB /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* vst 2.4 examples */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4C0717BAB93B00AFF0EE /* PyoPlugGlobal */,
+				A45161F917619000006A0CD4 /* PyoPlugVST */,
+				A42F4B8E17BAA5D800AFF0EE /* PyoPlugAU */,
+				A417D5B817F1D6F40054BEC0 /* PyoPlugMax */,
+				A417D5B917F1D7050054BEC0 /* PyoPlugPd */,
+				A464F1A117D5716900FFD226 /* ScriptsPresets */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				A400A5A417D57DFE00E4D279 /* ScriptsPresets */,
+				A42F4B8717BAA5D800AFF0EE /* Frameworks */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = "vst 2.4 examples";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */,
+				A4E3A4E7175E4B28002C14A0 /* Python.framework */,
+				A4B75D46176AB4680058B652 /* CoreData.framework */,
+				A4B75D43176A877C0058B652 /* Cocoa.framework */,
+				F4476B78093DD675008998C4 /* QuickTime.framework */,
+				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
+				A42F4BB117BAB19700AFF0EE /* CoreServices.framework */,
+				A42F4BAF17BAB18E00AFF0EE /* AudioUnit.framework */,
+				A42F4BAD17BAB18500AFF0EE /* AudioToolbox.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4C1417BAE23E00AFF0EE /* vst2.4Info.plist */,
+				F4FF52F5092A312800DDED7A /* minihost-Info.plist */,
+				F4476B8B093DD81B008998C4 /* bmp00128.bmp */,
+				F4476B8C093DD81B008998C4 /* bmp00129.bmp */,
+				F4476B8D093DD81B008998C4 /* bmp00130.bmp */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4FF52F3092A312800DDED7A /* minihost.app */,
+				A45161F717618F90006A0CD4 /* pyoplug.vst */,
+				A42F4BAB17BAB00200AFF0EE /* pyoplug.component */,
+				A417D5CD17F1D7390054BEC0 /* pyoplug~.mxo */,
+				A41AD01C17FCA16B00AE5D98 /* pyoplug~.pd_darwin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A400A5A417D57DFE00E4D279 /* ScriptsPresets */ = {
+			isa = PBXGroup;
+			children = (
+				A400A5A517D57DFE00E4D279 /* Supporting Files */,
+			);
+			path = ScriptsPresets;
+			sourceTree = "<group>";
+		};
+		A400A5A517D57DFE00E4D279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A400A5A617D57DFE00E4D279 /* ScriptsPresets-Info.plist */,
+				A400A5A717D57DFE00E4D279 /* InfoPlist.strings */,
+				A400A5AA17D57DFE00E4D279 /* ScriptsPresets-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A417D5B817F1D6F40054BEC0 /* PyoPlugMax */ = {
+			isa = PBXGroup;
+			children = (
+				A417D5CF17F1D7730054BEC0 /* maxmspsdk.xcconfig */,
+				A417D5D017F1D7730054BEC0 /* pyoplugmax.cpp */,
+				A417D5D117F1D7730054BEC0 /* MaxAudioAPI.framework */,
+			);
+			name = PyoPlugMax;
+			path = PyoPlugVST;
+			sourceTree = "<group>";
+		};
+		A417D5B917F1D7050054BEC0 /* PyoPlugPd */ = {
+			isa = PBXGroup;
+			children = (
+				A41AD01317FC9E7B00AE5D98 /* pyoplugpd.xcconfig */,
+				A4C4C64817FC5DC7003CFAA7 /* m_pd.h */,
+				A4C4C64917FC5DC7003CFAA7 /* pyoplugpd.cpp */,
+			);
+			name = PyoPlugPd;
+			path = PyoPlugVST;
+			sourceTree = "<group>";
+		};
+		A42F4B8117BAA12E00AFF0EE /* VST-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				089C167CFE841241C02AAC07 /* Resources */,
+				F4FF52FD092A314900DDED7A /* minihost */,
+				F4FF51CD0929F9C400DDED7A /* vst sdk 2.4 */,
+				F4476AA3093DCFB0008998C4 /* vstgui */,
+			);
+			name = "VST-SDK";
+			sourceTree = "<group>";
+		};
+		A42F4B8717BAA5D800AFF0EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4B8817BAA5D800AFF0EE /* Cocoa.framework */,
+				A42F4B8A17BAA5D800AFF0EE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A42F4B8A17BAA5D800AFF0EE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4B8B17BAA5D800AFF0EE /* AppKit.framework */,
+				A42F4B8C17BAA5D800AFF0EE /* CoreData.framework */,
+				A42F4B8D17BAA5D800AFF0EE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A42F4B8E17BAA5D800AFF0EE /* PyoPlugAU */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4BB317BAB24F00AFF0EE /* PyoPlugAU.cpp */,
+				A42F4BB417BAB24F00AFF0EE /* PyoPlugAU.exp */,
+				A42F4BB517BAB24F00AFF0EE /* PyoPlugAU.h */,
+				A42F4BB617BAB24F00AFF0EE /* PyoPlugAU.r */,
+				A42F4BB717BAB24F00AFF0EE /* PyoPlugAUVersion.h */,
+				A42F4B8F17BAA5D800AFF0EE /* Supporting Files */,
+				A42F4BC417BAB81A00AFF0EE /* PublicUtility */,
+				A42F4BC017BAB7A800AFF0EE /* AUPublic */,
+			);
+			path = PyoPlugAU;
+			sourceTree = "<group>";
+		};
+		A42F4B8F17BAA5D800AFF0EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4B9017BAA5D800AFF0EE /* PyoPlugAU-Info.plist */,
+				A42F4B9117BAA5D800AFF0EE /* InfoPlist.strings */,
+				A42F4B9417BAA5D800AFF0EE /* PyoPlugAU-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A42F4BC017BAB7A800AFF0EE /* AUPublic */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4BC117BAB7B700AFF0EE /* AUBase */,
+				A42F4BC217BAB7C300AFF0EE /* OtherBases */,
+				A42F4BC317BAB7D400AFF0EE /* Utility */,
+			);
+			name = AUPublic;
+			sourceTree = "<group>";
+		};
+		A42F4BC117BAB7B700AFF0EE /* AUBase */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4BDB17BAB84800AFF0EE /* AUBase.cpp */,
+				A42F4BDC17BAB84800AFF0EE /* AUBase.h */,
+				A42F4BDD17BAB84800AFF0EE /* AUDispatch.cpp */,
+				A42F4BDE17BAB84800AFF0EE /* AUDispatch.h */,
+				A42F4BDF17BAB84800AFF0EE /* AUInputElement.cpp */,
+				A42F4BE017BAB84800AFF0EE /* AUInputElement.h */,
+				A42F4BE117BAB84800AFF0EE /* AUOutputElement.cpp */,
+				A42F4BE217BAB84800AFF0EE /* AUOutputElement.h */,
+				A42F4BE317BAB84800AFF0EE /* AUResources.r */,
+				A42F4BE417BAB84800AFF0EE /* AUScopeElement.cpp */,
+				A42F4BE517BAB84800AFF0EE /* AUScopeElement.h */,
+				A42F4BE617BAB84800AFF0EE /* ComponentBase.cpp */,
+				A42F4BE717BAB84800AFF0EE /* ComponentBase.h */,
+			);
+			name = AUBase;
+			sourceTree = "<group>";
+		};
+		A42F4BC217BAB7C300AFF0EE /* OtherBases */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4BF517BAB85400AFF0EE /* AUEffectBase.cpp */,
+				A42F4BF617BAB85400AFF0EE /* AUEffectBase.h */,
+			);
+			name = OtherBases;
+			sourceTree = "<group>";
+		};
+		A42F4BC317BAB7D400AFF0EE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4C0E17BAC14300AFF0EE /* AUBaseHelper.cpp */,
+				A42F4C0F17BAC14300AFF0EE /* AUBaseHelper.h */,
+				A42F4BF917BAB86100AFF0EE /* AUBuffer.cpp */,
+				A42F4BFA17BAB86100AFF0EE /* AUBuffer.h */,
+				A42F4BFB17BAB86100AFF0EE /* AUDebugDispatcher.cpp */,
+				A42F4BFC17BAB86100AFF0EE /* AUDebugDispatcher.h */,
+				A42F4BFD17BAB86100AFF0EE /* AUInputFormatConverter.h */,
+				A42F4BFE17BAB86100AFF0EE /* AUSilentTimeout.h */,
+				A42F4BFF17BAB86100AFF0EE /* AUTimestampGenerator.h */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		A42F4BC417BAB81A00AFF0EE /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4BC517BAB82E00AFF0EE /* CAAUParameter.cpp */,
+				A42F4BC617BAB82E00AFF0EE /* CAAUParameter.h */,
+				A42F4BC717BAB82E00AFF0EE /* CAAudioChannelLayout.cpp */,
+				A42F4BC817BAB82E00AFF0EE /* CAAudioChannelLayout.h */,
+				A42F4BC917BAB82E00AFF0EE /* CAMutex.cpp */,
+				A42F4BCA17BAB82E00AFF0EE /* CAMutex.h */,
+				A42F4BCB17BAB82E00AFF0EE /* CAStreamBasicDescription.cpp */,
+				A42F4BCC17BAB82E00AFF0EE /* CAStreamBasicDescription.h */,
+				A42F4BCD17BAB82E00AFF0EE /* CAVectorUnitTypes.h */,
+				A42F4BCE17BAB82E00AFF0EE /* CAVectorUnit.cpp */,
+				A42F4BCF17BAB82E00AFF0EE /* CAVectorUnit.h */,
+			);
+			name = PublicUtility;
+			sourceTree = "<group>";
+		};
+		A42F4C0717BAB93B00AFF0EE /* PyoPlugGlobal */ = {
+			isa = PBXGroup;
+			children = (
+				A4AD222517BAF20000B99058 /* pyoplug.cpp */,
+				A4AD222617BAF20000B99058 /* pyoplug.h */,
+			);
+			name = PyoPlugGlobal;
+			sourceTree = "<group>";
+		};
+		A45161F917619000006A0CD4 /* PyoPlugVST */ = {
+			isa = PBXGroup;
+			children = (
+				A4D6A9C9176BEBD5008F75AC /* PyoPlugVST_Prefix.pch */,
+				A45161FA1761900D006A0CD4 /* pyoplugVST.cpp */,
+				A45161FB1761900D006A0CD4 /* pyoplugVST.h */,
+				A4AD222317BAF0DD00B99058 /* PyoPlugVSTInfo.plist */,
+				A4B75D39176A83050058B652 /* editor */,
+				A42F4B8117BAA12E00AFF0EE /* VST-SDK */,
+			);
+			path = PyoPlugVST;
+			sourceTree = "<group>";
+		};
+		A4B75D39176A83050058B652 /* editor */ = {
+			isa = PBXGroup;
+			children = (
+				A4B75D3A176A83850058B652 /* pyoeditor.cpp */,
+				A4B75D3B176A83850058B652 /* pyoeditor.h */,
+			);
+			name = editor;
+			sourceTree = "<group>";
+		};
+		F4476AA3093DCFB0008998C4 /* vstgui */ = {
+			isa = PBXGroup;
+			children = (
+				F4476AAC093DD4FB008998C4 /* aeffguieditor.cpp */,
+				F4476AAD093DD4FB008998C4 /* vstcontrols.cpp */,
+				F4476AAE093DD4FB008998C4 /* vstgui.cpp */,
+			);
+			name = vstgui;
+			sourceTree = "<group>";
+		};
+		F4FF51CD0929F9C400DDED7A /* vst sdk 2.4 */ = {
+			isa = PBXGroup;
+			children = (
+				F4FF51CE0929F9D900DDED7A /* aeffect.h */,
+				F4FF51CF0929F9D900DDED7A /* aeffectx.h */,
+				F4FF51C40929F9C100DDED7A /* aeffeditor.h */,
+				F4FF51C50929F9C100DDED7A /* audioeffect.cpp */,
+				F4FF51C60929F9C100DDED7A /* audioeffect.h */,
+				F4FF51C70929F9C100DDED7A /* audioeffectx.cpp */,
+				F4FF51C80929F9C100DDED7A /* audioeffectx.h */,
+				F4FF51D00929F9D900DDED7A /* vstfxstore.h */,
+				F4FF51C90929F9C100DDED7A /* vstplugmain.cpp */,
+			);
+			name = "vst sdk 2.4";
+			sourceTree = "<group>";
+		};
+		F4FF52FD092A314900DDED7A /* minihost */ = {
+			isa = PBXGroup;
+			children = (
+				F4FF52F9092A314700DDED7A /* minieditor.cpp */,
+				F4FF52FA092A314700DDED7A /* minihost.cpp */,
+			);
+			name = minihost;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A41AD01A17FCA16B00AE5D98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42F4C0B17BABE8E00AFF0EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42F4C0D17BAC0F400AFF0EE /* PyoPlugAUVersion.h in Headers */,
+				A42F4BD117BAB82E00AFF0EE /* CAAUParameter.h in Headers */,
+				A42F4BD317BAB82E00AFF0EE /* CAAudioChannelLayout.h in Headers */,
+				A42F4BD517BAB82E00AFF0EE /* CAMutex.h in Headers */,
+				A42F4BD717BAB82E00AFF0EE /* CAStreamBasicDescription.h in Headers */,
+				A42F4BD817BAB82E00AFF0EE /* CAVectorUnitTypes.h in Headers */,
+				A42F4BDA17BAB82E00AFF0EE /* CAVectorUnit.h in Headers */,
+				A42F4BE917BAB84800AFF0EE /* AUBase.h in Headers */,
+				A42F4BEB17BAB84800AFF0EE /* AUDispatch.h in Headers */,
+				A42F4BED17BAB84800AFF0EE /* AUInputElement.h in Headers */,
+				A42F4BEF17BAB84800AFF0EE /* AUOutputElement.h in Headers */,
+				A42F4BF217BAB84800AFF0EE /* AUScopeElement.h in Headers */,
+				A42F4BF417BAB84800AFF0EE /* ComponentBase.h in Headers */,
+				A42F4BF817BAB85400AFF0EE /* AUEffectBase.h in Headers */,
+				A42F4C0117BAB86100AFF0EE /* AUBuffer.h in Headers */,
+				A42F4C0317BAB86100AFF0EE /* AUDebugDispatcher.h in Headers */,
+				A42F4C0417BAB86100AFF0EE /* AUInputFormatConverter.h in Headers */,
+				A42F4C0517BAB86100AFF0EE /* AUSilentTimeout.h in Headers */,
+				A42F4C0617BAB86100AFF0EE /* AUTimestampGenerator.h in Headers */,
+				A42F4C1117BAC14300AFF0EE /* AUBaseHelper.h in Headers */,
+				A47F3C0D17BC2AFD001FEC19 /* pyoplug.h in Headers */,
+				A47F3C0E17BC2BDE001FEC19 /* PyoPlugAU.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A417D5BA17F1D7390054BEC0 /* pyoplugMax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A417D5CA17F1D7390054BEC0 /* Build configuration list for PBXNativeTarget "pyoplugMax" */;
+			buildPhases = (
+				A417D5BB17F1D7390054BEC0 /* Resources */,
+				A417D5BC17F1D7390054BEC0 /* Sources */,
+				A417D5C217F1D7390054BEC0 /* Frameworks */,
+				A417D5C917F1D7390054BEC0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pyoplugMax;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "vst 2.4 examples";
+			productReference = A417D5CD17F1D7390054BEC0 /* pyoplug~.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A41AD01B17FCA16B00AE5D98 /* pyoplugPd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41AD01D17FCA16B00AE5D98 /* Build configuration list for PBXNativeTarget "pyoplugPd" */;
+			buildPhases = (
+				A41AD01817FCA16B00AE5D98 /* Sources */,
+				A41AD01917FCA16B00AE5D98 /* Frameworks */,
+				A41AD01A17FCA16B00AE5D98 /* Headers */,
+				A41AD02217FCA27D00AE5D98 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pyoplugPd;
+			productName = "pyoplug~";
+			productReference = A41AD01C17FCA16B00AE5D98 /* pyoplug~.pd_darwin */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		A42F4B9917BAB00200AFF0EE /* pyoplugAU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42F4BA817BAB00200AFF0EE /* Build configuration list for PBXNativeTarget "pyoplugAU" */;
+			buildPhases = (
+				A42F4C0B17BABE8E00AFF0EE /* Headers */,
+				A42F4B9A17BAB00200AFF0EE /* Resources */,
+				A42F4B9B17BAB00200AFF0EE /* Sources */,
+				A42F4BA017BAB00200AFF0EE /* Frameworks */,
+				A42F4C0917BABDE800AFF0EE /* Rez */,
+				A42F4BA717BAB00200AFF0EE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pyoplugAU;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "vst 2.4 examples";
+			productReference = A42F4BAB17BAB00200AFF0EE /* pyoplug.component */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A45161EB17618F90006A0CD4 /* pyoplugVST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45161F417618F90006A0CD4 /* Build configuration list for PBXNativeTarget "pyoplugVST" */;
+			buildPhases = (
+				A45161EC17618F90006A0CD4 /* Resources */,
+				A45161ED17618F90006A0CD4 /* Sources */,
+				A45161F217618F90006A0CD4 /* Frameworks */,
+				A4E3B3B31763FD7F007937D1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pyoplugVST;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "vst 2.4 examples";
+			productReference = A45161F717618F90006A0CD4 /* pyoplug.vst */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F4FF52F2092A312800DDED7A /* minihost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FF52F6092A312900DDED7A /* Build configuration list for PBXNativeTarget "minihost" */;
+			buildPhases = (
+				F4FF52EF092A312800DDED7A /* Resources */,
+				F4FF52F0092A312800DDED7A /* Sources */,
+				F4FF52F1092A312800DDED7A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = minihost;
+			productName = minihost;
+			productReference = F4FF52F3092A312800DDED7A /* minihost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4FADC23708B4156C00ABE55E /* Build configuration list for PBXProject "gbPyoPlug" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* vst 2.4 examples */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4476C1A093DDA87008998C4 /* all */,
+				F4FF52F2092A312800DDED7A /* minihost */,
+				A45161EB17618F90006A0CD4 /* pyoplugVST */,
+				A42F4B9917BAB00200AFF0EE /* pyoplugAU */,
+				A417D5BA17F1D7390054BEC0 /* pyoplugMax */,
+				A41AD01B17FCA16B00AE5D98 /* pyoplugPd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A417D5BB17F1D7390054BEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42F4B9A17BAB00200AFF0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42F4C0817BAB99E00AFF0EE /* InfoPlist.strings in Resources */,
+				A47F3C0F17BC2BEC001FEC19 /* PyoPlugAU-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45161EC17618F90006A0CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FF52EF092A312800DDED7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		A42F4C0917BABDE800AFF0EE /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42F4C0A17BABE0E00AFF0EE /* PyoPlugAU.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A417D5C917F1D7390054BEC0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#cp -p -r -f \"$CONFIGURATION_BUILD_DIR/$PRODUCT_NAME.vst\" \"$HOME/Library/Audio/Plug-Ins/VST/\" \n#touch \"$HOME/Library/Audio/Plug-Ins/VST/$PRODUCT_NAME.mxo\"\n\n#cp -p -r -f \"$CONFIGURATION_BUILD_DIR/$PRODUCT_NAME.mxo\" \"$SRCROOT/Builds/MacOSX/\" \n#touch \"$SRCROOT/Builds/MacOSX/$PRODUCT_NAME.mxo\"";
+		};
+		A41AD02217FCA27D00AE5D98 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -p -r -f \"$CONFIGURATION_BUILD_DIR/$PRODUCT_NAME.pd_darwin\" \"$SRCROOT/Builds/MacOSX/\" \ntouch \"$SRCROOT/Builds/MacOSX/$PRODUCT_NAME.pd_darwin\"";
+		};
+		A42F4BA717BAB00200AFF0EE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -p -r -f \"$CONFIGURATION_BUILD_DIR/$PRODUCT_NAME.component\" \"$HOME/Library/Audio/Plug-Ins/Components/\" \ntouch \"$HOME/Library/Audio/Plug-Ins/Components/$PRODUCT_NAME.component\"\n\ncp -p -r -f \"$CONFIGURATION_BUILD_DIR/$PRODUCT_NAME.component\" \"$SRCROOT/Builds/MacOSX/\" \ntouch \"$SRCROOT/Builds/MacOSX/$PRODUCT_NAME.component\"\n";
+		};
+		A4E3B3B31763FD7F007937D1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -p -r -f \"$CONFIGURATION_BUILD_DIR/$PRODUCT_NAME.vst\" \"$HOME/Library/Audio/Plug-Ins/VST/\" \ntouch \"$HOME/Library/Audio/Plug-Ins/VST/$PRODUCT_NAME.vst\"\n\ncp -p -r -f \"$CONFIGURATION_BUILD_DIR/$PRODUCT_NAME.vst\" \"$SRCROOT/Builds/MacOSX/\" \ntouch \"$SRCROOT/Builds/MacOSX/$PRODUCT_NAME.vst\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A417D5BC17F1D7390054BEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A417D5C117F1D7390054BEC0 /* pyoplug.cpp in Sources */,
+				A417D5D217F1D7790054BEC0 /* pyoplugmax.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41AD01817FCA16B00AE5D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41AD02017FCA1A000AE5D98 /* pyoplugpd.cpp in Sources */,
+				A41AD02117FCA23B00AE5D98 /* pyoplug.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42F4B9B17BAB00200AFF0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42F4BB817BAB24F00AFF0EE /* PyoPlugAU.cpp in Sources */,
+				A42F4BD017BAB82E00AFF0EE /* CAAUParameter.cpp in Sources */,
+				A42F4BD217BAB82E00AFF0EE /* CAAudioChannelLayout.cpp in Sources */,
+				A42F4BD417BAB82E00AFF0EE /* CAMutex.cpp in Sources */,
+				A42F4BD617BAB82E00AFF0EE /* CAStreamBasicDescription.cpp in Sources */,
+				A42F4BD917BAB82E00AFF0EE /* CAVectorUnit.cpp in Sources */,
+				A42F4BE817BAB84800AFF0EE /* AUBase.cpp in Sources */,
+				A42F4BEA17BAB84800AFF0EE /* AUDispatch.cpp in Sources */,
+				A42F4BEC17BAB84800AFF0EE /* AUInputElement.cpp in Sources */,
+				A42F4BEE17BAB84800AFF0EE /* AUOutputElement.cpp in Sources */,
+				A42F4BF117BAB84800AFF0EE /* AUScopeElement.cpp in Sources */,
+				A42F4BF317BAB84800AFF0EE /* ComponentBase.cpp in Sources */,
+				A42F4BF717BAB85400AFF0EE /* AUEffectBase.cpp in Sources */,
+				A42F4C0017BAB86100AFF0EE /* AUBuffer.cpp in Sources */,
+				A42F4C0217BAB86100AFF0EE /* AUDebugDispatcher.cpp in Sources */,
+				A42F4C1017BAC14300AFF0EE /* AUBaseHelper.cpp in Sources */,
+				A47F3C0C17BC2AEE001FEC19 /* pyoplug.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45161ED17618F90006A0CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45161EF17618F90006A0CD4 /* audioeffect.cpp in Sources */,
+				A45161F017618F90006A0CD4 /* audioeffectx.cpp in Sources */,
+				A45161F117618F90006A0CD4 /* vstplugmain.cpp in Sources */,
+				A45161FD1761900D006A0CD4 /* pyoplugVST.cpp in Sources */,
+				A47F3C1617BC4E28001FEC19 /* pyoplug.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FF52F0092A312800DDED7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FF52FC092A314700DDED7A /* minihost.cpp in Sources */,
+				F4FF533D092A371400DDED7A /* minieditor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A417D5DA17F1DC3D0054BEC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A417D5BA17F1D7390054BEC0 /* pyoplugMax */;
+			targetProxy = A417D5D917F1DC3D0054BEC0 /* PBXContainerItemProxy */;
+		};
+		A4D8F63117D4274100BC7BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A45161EB17618F90006A0CD4 /* pyoplugVST */;
+			targetProxy = A4D8F63017D4274100BC7BB7 /* PBXContainerItemProxy */;
+		};
+		A4D8F63317D4274100BC7BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42F4B9917BAB00200AFF0EE /* pyoplugAU */;
+			targetProxy = A4D8F63217D4274100BC7BB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A400A5A717D57DFE00E4D279 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A400A5A817D57DFE00E4D279 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A42F4B9117BAA5D800AFF0EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42F4B9217BAA5D800AFF0EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FADC23808B4156C00ABE55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../",
+				);
+				INFOPLIST_FILE = vst2.4Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				PREBINDING = NO;
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Debug;
+		};
+		4FADC23908B4156C00ABE55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../",
+				);
+				INFOPLIST_FILE = vst2.4Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				PREBINDING = NO;
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Release;
+		};
+		A417D5CB17F1D7390054BEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A417D5CF17F1D7730054BEC0 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks/Python.framework/Versions/**",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../../Git/Max/Max6-SDK/c74support/msp-includes\"";
+				GCC_PREFIX_HEADER = "$(C74SUPPORT)/max-includes/macho-prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(HEADER_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/Max6-SDK/c74support/msp-includes/\"";
+				HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/Max6-SDK/c74support/max-includes/\"";
+				INFOPLIST_FILE = "$(SRCROOT)/PyoPlugMax/Max6-SDK/examples/Info.plist";
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+				PRODUCT_NAME = "pyoplug~";
+				PRODUCT_VERSION = 1.0;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = mxo;
+			};
+			name = Debug;
+		};
+		A417D5CC17F1D7390054BEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A417D5CF17F1D7730054BEC0 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				DEPLOYMENT_POSTPROCESSING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks/Python.framework/Versions/**",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../../Git/Max/Max6-SDK/c74support/msp-includes\"";
+				GCC_PREFIX_HEADER = "$(C74SUPPORT)/max-includes/macho-prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(HEADER_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/Max6-SDK/c74support/msp-includes/\"";
+				HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/Max6-SDK/c74support/max-includes/\"";
+				INFOPLIST_FILE = "$(SRCROOT)/PyoPlugMax/Max6-SDK/examples/Info.plist";
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+				PRODUCT_NAME = "pyoplug~";
+				PRODUCT_VERSION = 1.0;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = mxo;
+			};
+			name = Release;
+		};
+		A41AD01E17FCA16B00AE5D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(SRCROOT)/Builds/MacOSX/";
+				EXECUTABLE_EXTENSION = pd_darwin;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				INFOPLIST_FILE = "";
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = /;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "pyoplug~";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT) $(SRCROOT)/PyoPlugPd";
+			};
+			name = Debug;
+		};
+		A41AD01F17FCA16B00AE5D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				DSTROOT = "$(SRCROOT)/Builds/MacOSX/";
+				EXECUTABLE_EXTENSION = pd_darwin;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				INFOPLIST_FILE = "";
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = /;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "pyoplug~";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT) $(SRCROOT)/PyoPlugPd";
+			};
+			name = Release;
+		};
+		A42F4BA917BAB00200AFF0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXPORTED_SYMBOLS_FILE = PyoPlugAU/PyoPlugAU.exp;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				GCC_ENABLE_SSE3_EXTENSIONS = NO;
+				GCC_PREFIX_HEADER = "$(PREFIX_HEADER)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../",
+					"$(SRCROOT)/PyoPlugVST/vstsdk2.4/**",
+				);
+				INFOPLIST_FILE = "PyoPlugAU/PyoPlugAU-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Examples/CoreAudio/AudioUnits/AUPublic/AUBase\"";
+				PRODUCT_NAME = pyoplug;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = component;
+			};
+			name = Debug;
+		};
+		A42F4BAA17BAB00200AFF0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXPORTED_SYMBOLS_FILE = PyoPlugAU/PyoPlugAU.exp;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				GCC_ENABLE_SSE3_EXTENSIONS = NO;
+				GCC_PREFIX_HEADER = "$(PREFIX_HEADER)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../",
+					"$(SRCROOT)/PyoPlugVST/vstsdk2.4/**",
+				);
+				INFOPLIST_FILE = "PyoPlugAU/PyoPlugAU-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Examples/CoreAudio/AudioUnits/AUPublic/AUBase\"";
+				PRODUCT_NAME = pyoplug;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = component;
+			};
+			name = Release;
+		};
+		A45161F517618F90006A0CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				GCC_PREFIX_HEADER = "$(PREFIX_HEADER)";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../",
+					"$(SRCROOT)/PyoPlugVST/vstsdk2.4/**",
+				);
+				INFOPLIST_FILE = PyoPlugVST/PyoPlugVSTInfo.plist;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				PRODUCT_NAME = pyoplug;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = vst;
+			};
+			name = Debug;
+		};
+		A45161F617618F90006A0CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				GCC_PREFIX_HEADER = "$(PREFIX_HEADER)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../",
+					"$(SRCROOT)/PyoPlugVST/vstsdk2.4/**",
+				);
+				INFOPLIST_FILE = PyoPlugVST/PyoPlugVSTInfo.plist;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/Python.framework/Versions/**";
+				PRODUCT_NAME = pyoplug;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = vst;
+			};
+			name = Release;
+		};
+		F4476C2B093DDACE008998C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = all;
+			};
+			name = Debug;
+		};
+		F4476C2C093DDACE008998C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = all;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		F4FF52F7092A312900DDED7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "PyoPlugVST/vstsdk2.4/public.sdk/samples/vst2.x/mac/minihost-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = minihost;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		F4FF52F8092A312900DDED7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "PyoPlugVST/vstsdk2.4/public.sdk/samples/vst2.x/mac/minihost-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = minihost;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FADC23708B4156C00ABE55E /* Build configuration list for PBXProject "gbPyoPlug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FADC23808B4156C00ABE55E /* Debug */,
+				4FADC23908B4156C00ABE55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A417D5CA17F1D7390054BEC0 /* Build configuration list for PBXNativeTarget "pyoplugMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A417D5CB17F1D7390054BEC0 /* Debug */,
+				A417D5CC17F1D7390054BEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A41AD01D17FCA16B00AE5D98 /* Build configuration list for PBXNativeTarget "pyoplugPd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41AD01E17FCA16B00AE5D98 /* Debug */,
+				A41AD01F17FCA16B00AE5D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42F4BA817BAB00200AFF0EE /* Build configuration list for PBXNativeTarget "pyoplugAU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42F4BA917BAB00200AFF0EE /* Debug */,
+				A42F4BAA17BAB00200AFF0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45161F417618F90006A0CD4 /* Build configuration list for PBXNativeTarget "pyoplugVST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45161F517618F90006A0CD4 /* Debug */,
+				A45161F617618F90006A0CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4476C2A093DDACE008998C4 /* Build configuration list for PBXAggregateTarget "all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4476C2B093DDACE008998C4 /* Debug */,
+				F4476C2C093DDACE008998C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FF52F6092A312900DDED7A /* Build configuration list for PBXNativeTarget "minihost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF52F7092A312900DDED7A /* Debug */,
+				F4FF52F8092A312900DDED7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

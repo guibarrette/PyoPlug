@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "${PRODUCT_NAME}";
+CFBundleGetInfoString = "${PRODUCT_NAME} version 1.0, Copyright 2013 Guillaume Barrette";
