@@ -1,6 +1,6 @@
 #Documentation (Script PyoPlug) :
   
----	
+	
 Cette documentation sera utile pour tout développeur souhaitant créer des scripts pour mes plugiciels. S’il y a besoin d’étudier plusieurs exemples, veuillez vous référer aux scripts du dossier des préréglages (« Presets »). Veuillez noter que le serveur Pyo est initialisé à l’interne du plug-in et ne devrait pas être manipulé à l’intérieur d’un script. Lors de l’initialisation, le plug-in vérifie si Pyo a été installé en version 64-bits (module Python : pyo64). Si c’est le cas, la version 64-bits de Pyo est chargée. Sinon, ce sera la version 32-bits (module Python : pyo).
   
 ---
@@ -130,7 +130,11 @@ La fonction principale qui permet l’interaction entre le plug-in et le script 
     	*args, **kwargs : Ces arguments ne sont pas utilisés, mais sont spécifiés afin
                           d’empêcher le plug-in de planter s’il y a des erreurs d’arguments 
   
-	Important: Les valeurs retournées par le plug-in vers le script sont passées par des objets Pyo. Par ce fait, les valeurs seront toujours reçues en tant que nombre à virgule flottante (float). Ainsi, il est au développeur du script de s’assurer de convertir les valeurs au type voulu, au besoin. Par exemple, la conversion en nombre entier (int) pourra se faire avec : int(objPyoDuParametre.get())
+	Important: Les valeurs retournées par le plug-in vers le script sont passées par des objets
+	 Pyo. Par ce fait, les valeurs seront toujours reçues en tant que nombre à virgule flottante 
+	(float). Ainsi, il est au développeur du script de s’assurer de convertir les valeurs au 
+	type voulu, au besoin. Par exemple, la conversion en nombre entier (int) pourra se faire 
+	avec : int(objPyoDuParametre.get())
 
 Afin de mieux comprendre le fonctionnement de la fonction defineUI(), voilà quelques exemples :
 

@@ -1,7 +1,5 @@
 # PyoPlug  
 
----
-
 
 ### Description
 
@@ -34,7 +32,7 @@ The presets are also needed to make it works. To install them, just copy the "Py
   
 
 - PyoPlug : (Sorry, there's only a french version for now)   
-	*   asdasd
+	*   <https://github.com/guibarrette/PyoPlug/blob/master/Documentation/PyoPlug-DocumentationFR.md>
 
 - Pyo :   
 	* Information: <http://code.google.com/p/pyo/>  
