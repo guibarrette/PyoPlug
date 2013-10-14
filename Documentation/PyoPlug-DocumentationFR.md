@@ -1,10 +1,10 @@
-#Documentation (Script PyoPlug) :
+# Documentation (Script PyoPlug) :
   
 	
 Cette documentation sera utile pour tout développeur souhaitant créer des scripts pour mes plugiciels. S’il y a besoin d’étudier plusieurs exemples, veuillez vous référer aux scripts du dossier des préréglages (« Presets »). Veuillez noter que le serveur Pyo est initialisé à l’interne du plug-in et ne devrait pas être manipulé à l’intérieur d’un script. Lors de l’initialisation, le plug-in vérifie si Pyo a été installé en version 64-bits (module Python : pyo64). Si c’est le cas, la version 64-bits de Pyo est chargée. Sinon, ce sera la version 32-bits (module Python : pyo).
   
 ---
-###Serveur - Entrées/Sorties (E/S) :
+### Serveur - Entrées/Sorties (E/S) :
 Les entrées et les sorties fonctionnent de la même manière que tout autre type de pilote audio Pyo. Cependant, le nombre d’entrées et sorties du plugiciel dépend de l’initialisation de celui-ci par le séquenceur ou logiciel utilisé. Ainsi, un plug-in mono à stéréo aura une seule entrée et deux sorties. Ces E/S peuvent être utilisés à l’intérieur du script de cette façon :
 
 ```python  
@@ -33,7 +33,7 @@ Les entrées et les sorties fonctionnent de la même manière que tout autre typ
 ```  
   
 ---
-###Paramètres du séquenceur :
+### Paramètres du séquenceur :
 Quelques variables et objets Pyo créent d’intermédiaire afin de retrouver des paramètres du séquenceur dans le script.
 
 	Variables :
@@ -52,7 +52,7 @@ Quelques variables et objets Pyo créent d’intermédiaire afin de retrouver de
 	                        Ex : out = Sine(freq=400, mul=dawIsPlaying).out()
 
 ---  
-###Compatibilité Cecilia :
+### Compatibilité Cecilia :
 Afin de faciliter la conversion des modules Cecilia, la fonction duplicate fut ajoutée à l’interne du plug-in et peut donc être utilisée par tout script. Cette fonction duplique les éléments d’une séquence d’après l’argument « num ». Cette fonction peut être utilisée afin de créer des listes qui correspondent au nombre de canaux multiplié par le nombre de voix.
 
 ```python
@@ -62,19 +62,19 @@ Afin de faciliter la conversion des modules Cecilia, la fonction duplicate fut a
 ```  
 
 ---
-###Chemin du script :
+### Chemin du script :
 Le chemin du script peut être accédé avec la variable : `pathToPyoScript`
 
 ---
-##Message d’erreur :
+### Message d’erreur :
 Lorsque le plug-in tente de charger un script et qu’une erreur dans ce dernier l’empêche de bien l’exécuter, une onde sinusoïdale se fera entendre pendant deux secondes. Cela permet de facilement s’apercevoir d’un problème avec le script au lieu de se demander pourquoi il y a que du silence.
 
 ---
-###Ordre et nombre de scripts et dossiers :
+### Ordre et nombre de scripts et dossiers :
 Puisqu’il est seulement possible d’utiliser des chiffres dans les formats de plug-in VST et AU, l’ordre des fichiers et dossiers a une grande importance puisqu’ils pourront seulement être appelés par index. Ainsi, afin de toujours garder le même script ou dossier à la même valeur d’index, un chiffre a été ajouté avant chaque nom. Cela est particulièrement important si nous voulons que des sauvegardes de paramètres puissent être constantes malgré l’ajout de scripts dans le dossier. De plus, un nombre maximum de dossiers et de scripts par dossiers a été établi. Cela permet de facilement trouver un script avec l’interface graphique et de le voir toujours attribuer le même index; par exemple, le premier script dans le dossier aura la valeur 0.00, le second aura la valeur 0.01 et ainsi de suite.
 
 ---
-###Définition des paramètres à contrôler par le plugiciel :
+### Définition des paramètres à contrôler par le plugiciel :
 La fonction principale qui permet l’interaction entre le plug-in et le script est définie par : defineUI(). Celle-ci est la fonction clé afin de définir les paramètres du plug-in en spécifiant son nom affiché à l’utilisateur, le minimum et maximum des valeurs ou une liste de valeurs ou fichiers à utiliser, l’unité à afficher, ainsi que la linéarité des valeurs par le potentiomètre à glissière de l’interface. De plus, elle s’occupe de la transformation des messages OSC reçus en un objet Pyo avec le nom spécifié par le développeur du script. De même, elle permet au développeur de spécifier une fonction à appeler lorsqu’un paramètre est modifié. 
 
 	La fonction :  
@@ -88,7 +88,7 @@ La fonction principale qui permet l’interaction entre le plug-in et le script 
 
     	func  : (string) Nom d’une fonction à appeler à chaque modification d’un paramètre
 
-		arg	  : (pyobject) Argument to send to the function call referenced by "func"
+		arg	  : (pyobject) Argument envoyé avec l'appel de la fonction référé par "func".
 
     	label : (string) Nom de paramètre a afficher dans l’interface graphique. Si le format 
                  VST est utilisé, notez qu’un maximum de 8 caractères peut être utilisé.
@@ -189,7 +189,7 @@ La fonction principale qui permet l’interaction entre le plug-in et le script 
 
 ---
 
-###Variables et objets réservés :
+### Variables et objets réservés :
 Quelques variables et objets sont utilisés à l’intérieur du plug-in, ils sont par le fait voués au bon fonctionnement de celui-ci. Ainsi, bien qu’ils puissent être utilisés à l’intérieur d’un script afin de retrouver une information, ces variables et objets ne devraient pas être modifiés par ce dernier. Ceux-ci sont :
 
     Variables et objets réservés :
