@@ -12,16 +12,23 @@ PyoPlug is a framework to embed the python module for digital signal processing 
   
 --- 
 
-### Installation  
+### Installation 
+
+_Make sure to have Pyo version 0.6.8 or later installed:_
+
+- _Installer: <http://code.google.com/p/pyo/downloads/list>_
+
+- _Sources (If you want the latest build): <http://code.google.com/p/pyo/source/checkout>_ 
+
+ 
 **Mac OS X :**  
-_Make sure to have the latest Pyo build installed: <http://code.google.com/p/pyo/source/checkout>_ 
 
 To install the plugins, compile the Xcode project or copy the compiled ones from the "Builds/MacOSX/" directory into your audio plugins folders:  
 
 - VST : ~/Library/Audio/Plug-Ins/VST/
 - Audio Unit : ~/Library/Audio/Plug-Ins/Components/
 
-The presets are also needed to make it works. To install them, just copy the "PyoPlug" folder inside the "ScriptsPresets" folder to your Audio "Presets" folder. (This is mandatory to copy it inside the "Preset" folder of you home directory)
+The presets are also needed to make it works. To install them, just copy the "PyoPlug" folder inside the "ScriptsPresets" folder to your Audio "Presets" folder. (This is mandatory to copy it inside the "Preset" folder of your home directory)
 
 - ~/Library/Audio/Presets/
 
