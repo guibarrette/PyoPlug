@@ -73,13 +73,15 @@ PyoPlug::PyoPlug (float pyoSmplRate, int pyoBufSize)	// 1 program, 1 parameter o
         
         PyEval_InitThreads();
         PyEval_ReleaseLock();
+//        Py_UNBLOCK_THREADS
     }
     
     folderInUse = 0;
     scriptInUse = 0;    // init the plugin to the default script = 0
     
     PyEval_AcquireLock();               // get the GIL
-	pySubInterp = Py_NewInterpreter();  // Add a new sub-interpreter
+//	Py_BLOCK_THREADS
+    pySubInterp = Py_NewInterpreter();  // Add a new sub-interpreter
     PyRun_SimpleString("import os\n"
                        "import sys\n"
                        "import time\n"
@@ -161,21 +163,25 @@ PyoPlug::PyoPlug (float pyoSmplRate, int pyoBufSize)	// 1 program, 1 parameter o
     runPyoScript();
     getOSCParams();
     
-	PyEval_ReleaseThread(pySubInterp);                  // Release the created thread
+//	PyEval_ReleaseThread(pySubInterp);                  // Release the created thread
     PyEval_ReleaseLock(); 
+//    Py_UNBLOCK_THREADS
 }
 
 //-------------------------------------------------------------------------------------------------------
 PyoPlug::~PyoPlug ()
 {
-	PyEval_AcquireLock();              // get the GIL
-    PyThreadState_Swap(pySubInterp);   // Swap to this plugin thread 
+//	PyEval_AcquireLock();              // get the GIL
+//    PyThreadState_Swap(pySubInterp);   // Swap to this plugin thread 
+    shutdownScript();
+//    Py_BLOCK_THREADS
     //    PyRun_SimpleString("s.setServer()\n"
     //                       "s.shutdown()\n");
     //    PyRun_SimpleString("pan.stop()");
     //    PyRun_SimpleString("s.setServer()");
 	Py_EndInterpreter(pySubInterp);    // Finish with this sub-interpreter
     PyEval_ReleaseLock();              // Release the GIL
+//    Py_UNBLOCK_THREADS
     /*
      pyoPlugCount -= 1;
      if(pyoPlugCount == 0)
@@ -431,14 +437,18 @@ void PyoPlug::getPyoAddresses(void){
 }
 
 
+/*
 //-------------------------------------------------------------------------------------------------------
 void PyoPlug::killSubInter(void){
+    
     PyEval_AcquireLock();              // get the GIL
     PyThreadState_Swap(pySubInterp);   // Swap to this plugin thread 
     //    PyRun_SimpleString("s.shutdown()");
 	Py_EndInterpreter(pySubInterp);    // Finish with this sub-interpreter
     PyEval_ReleaseLock();              // Release the GIL
+     
 }
+*/
 
 
 //-------------------------------------------------------------------------------------------------------
@@ -688,6 +698,7 @@ void PyoPlug::shutdownScript(void)
 {     
     PyEval_AcquireLock();              // get the GIL
     PyThreadState_Swap(pySubInterp);   // Swap to this plugin thread
+//    Py_BLOCK_THREADS
     PyRun_SimpleString("pyoPlugServer.setServer()\n"
                        "pyoPlugServer.shutdown()");
     
@@ -712,8 +723,9 @@ void PyoPlug::loadScript(bool newBuffer)
     runPyoScript();
     getOSCParams();
         
-    PyEval_ReleaseThread(pySubInterp);  // Release the created thread
+//    PyEval_ReleaseThread(pySubInterp);  // Release the created thread
     PyEval_ReleaseLock();               // Release the GIL
+//    Py_UNBLOCK_THREADS
     
     initParams();
 }

@@ -13,6 +13,7 @@
 			buildPhases = (
 			);
 			dependencies = (
+				A49CF21C180A42FC00F3E97C /* PBXTargetDependency */,
 				A417D5DA17F1DC3D0054BEC0 /* PBXTargetDependency */,
 				A4D8F63117D4274100BC7BB7 /* PBXTargetDependency */,
 				A4D8F63317D4274100BC7BB7 /* PBXTargetDependency */,
@@ -24,17 +25,18 @@
 
 /* Begin PBXBuildFile section */
 		A417D5C117F1D7390054BEC0 /* pyoplug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD222517BAF20000B99058 /* pyoplug.cpp */; };
-		A417D5C517F1D7390054BEC0 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */; };
 		A417D5C617F1D7390054BEC0 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3A4E7175E4B28002C14A0 /* Python.framework */; };
 		A417D5D217F1D7790054BEC0 /* pyoplugmax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A417D5D017F1D7730054BEC0 /* pyoplugmax.cpp */; };
 		A417D5D817F1D9B80054BEC0 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A417D5D117F1D7730054BEC0 /* MaxAudioAPI.framework */; };
 		A41AD02017FCA1A000AE5D98 /* pyoplugpd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4C4C64917FC5DC7003CFAA7 /* pyoplugpd.cpp */; };
 		A41AD02117FCA23B00AE5D98 /* pyoplug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD222517BAF20000B99058 /* pyoplug.cpp */; };
-		A41AD02D17FCA6FC00AE5D98 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */; };
 		A41AD02E17FCA70000AE5D98 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3A4E7175E4B28002C14A0 /* Python.framework */; };
+		A41ED1DE18679A1C0021AE3D /* liblo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4458E6B18678E7D0026FA80 /* liblo.dylib */; };
+		A41ED1DF18679A9B0021AE3D /* liblo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4458E6B18678E7D0026FA80 /* liblo.dylib */; };
+		A41ED1E018679AA40021AE3D /* liblo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4458E6B18678E7D0026FA80 /* liblo.dylib */; };
+		A41ED1E118679AAE0021AE3D /* liblo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4458E6B18678E7D0026FA80 /* liblo.dylib */; };
 		A42F4BA117BAB00200AFF0EE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D46176AB4680058B652 /* CoreData.framework */; };
 		A42F4BA217BAB00200AFF0EE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D43176A877C0058B652 /* Cocoa.framework */; };
-		A42F4BA317BAB00200AFF0EE /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */; };
 		A42F4BA417BAB00200AFF0EE /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3A4E7175E4B28002C14A0 /* Python.framework */; };
 		A42F4BA617BAB00200AFF0EE /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
 		A42F4BAE17BAB18600AFF0EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42F4BAD17BAB18500AFF0EE /* AudioToolbox.framework */; };
@@ -93,7 +95,6 @@
 		A4B75D44176A877D0058B652 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D43176A877C0058B652 /* Cocoa.framework */; };
 		A4B75D45176A87A20058B652 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
 		A4B75D47176AB4690058B652 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D46176AB4680058B652 /* CoreData.framework */; };
-		A4E3B3AC1763DC96007937D1 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */; };
 		F4EF438E0945D9CD001938AB /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
 		F4FF52FC092A314700DDED7A /* minihost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF52FA092A314700DDED7A /* minihost.cpp */; };
 		F4FF533D092A371400DDED7A /* minieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF52F9092A314700DDED7A /* minieditor.cpp */; };
@@ -106,6 +107,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A417D5BA17F1D7390054BEC0;
 			remoteInfo = pyoplugMax;
+		};
+		A49CF21B180A42FC00F3E97C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A41AD01B17FCA16B00AE5D98;
+			remoteInfo = pyoplugPd;
 		};
 		A4D8F63017D4274100BC7BB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -131,7 +139,7 @@
 		A417D5CD17F1D7390054BEC0 /* pyoplug~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pyoplug~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A417D5CF17F1D7730054BEC0 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = maxmspsdk.xcconfig; path = PyoPlugMax/maxmspsdk.xcconfig; sourceTree = SOURCE_ROOT; };
 		A417D5D017F1D7730054BEC0 /* pyoplugmax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pyoplugmax.cpp; path = PyoPlugMax/pyoplugmax.cpp; sourceTree = SOURCE_ROOT; };
-		A417D5D117F1D7730054BEC0 /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = "../../../../../../../Git/Max/Max6-SDK/c74support/msp-includes/MaxAudioAPI.framework"; sourceTree = "<group>"; };
+		A417D5D117F1D7730054BEC0 /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = "../../../Max/Max6-SDK/c74support/msp-includes/MaxAudioAPI.framework"; sourceTree = "<group>"; };
 		A41AD01317FC9E7B00AE5D98 /* pyoplugpd.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = pyoplugpd.xcconfig; path = PyoPlugPd/pyoplugpd.xcconfig; sourceTree = SOURCE_ROOT; };
 		A41AD01C17FCA16B00AE5D98 /* pyoplug~.pd_darwin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "pyoplug~.pd_darwin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42F4B8817BAA5D800AFF0EE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -186,6 +194,7 @@
 		A42F4C0E17BAC14300AFF0EE /* AUBaseHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AUBaseHelper.cpp; path = AudioUnits/AUPublic/Utility/AUBaseHelper.cpp; sourceTree = "<group>"; };
 		A42F4C0F17BAC14300AFF0EE /* AUBaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AUBaseHelper.h; path = AudioUnits/AUPublic/Utility/AUBaseHelper.h; sourceTree = "<group>"; };
 		A42F4C1417BAE23E00AFF0EE /* vst2.4Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = vst2.4Info.plist; path = vstsdk2.4/public.sdk/samples/vst2.x/mac/vst2.4Info.plist; sourceTree = "<group>"; };
+		A4458E6B18678E7D0026FA80 /* liblo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblo.dylib; path = usr/local/lib/liblo.dylib; sourceTree = SDKROOT; };
 		A45161F717618F90006A0CD4 /* pyoplug.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pyoplug.vst; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45161FA1761900D006A0CD4 /* pyoplugVST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pyoplugVST.cpp; sourceTree = "<group>"; };
 		A45161FB1761900D006A0CD4 /* pyoplugVST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyoplugVST.h; sourceTree = "<group>"; };
@@ -201,7 +210,6 @@
 		A4C4C64917FC5DC7003CFAA7 /* pyoplugpd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pyoplugpd.cpp; path = PyoPlugPd/pyoplugpd.cpp; sourceTree = SOURCE_ROOT; };
 		A4D6A9C9176BEBD5008F75AC /* PyoPlugVST_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyoPlugVST_Prefix.pch; sourceTree = "<group>"; };
 		A4E3A4E7175E4B28002C14A0 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
-		A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblo.7.dylib; path = usr/local/lib/liblo.7.dylib; sourceTree = SDKROOT; };
 		F4476AAC093DD4FB008998C4 /* aeffguieditor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = aeffguieditor.cpp; path = PyoPlugVST/vstsdk2.4/vstgui.sf/vstgui/aeffguieditor.cpp; sourceTree = SOURCE_ROOT; };
 		F4476AAD093DD4FB008998C4 /* vstcontrols.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstcontrols.cpp; path = PyoPlugVST/vstsdk2.4/vstgui.sf/vstgui/vstcontrols.cpp; sourceTree = SOURCE_ROOT; };
 		F4476AAE093DD4FB008998C4 /* vstgui.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstgui.cpp; path = PyoPlugVST/vstsdk2.4/vstgui.sf/vstgui/vstgui.cpp; sourceTree = SOURCE_ROOT; };
@@ -229,7 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A417D5C517F1D7390054BEC0 /* liblo.7.dylib in Frameworks */,
+				A41ED1E018679AA40021AE3D /* liblo.dylib in Frameworks */,
 				A417D5C617F1D7390054BEC0 /* Python.framework in Frameworks */,
 				A417D5D817F1D9B80054BEC0 /* MaxAudioAPI.framework in Frameworks */,
 			);
@@ -239,7 +247,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A41AD02D17FCA6FC00AE5D98 /* liblo.7.dylib in Frameworks */,
+				A41ED1E118679AAE0021AE3D /* liblo.dylib in Frameworks */,
 				A41AD02E17FCA70000AE5D98 /* Python.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,12 +256,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41ED1DF18679A9B0021AE3D /* liblo.dylib in Frameworks */,
 				A42F4BB217BAB19700AFF0EE /* CoreServices.framework in Frameworks */,
 				A42F4BB017BAB18E00AFF0EE /* AudioUnit.framework in Frameworks */,
 				A42F4BAE17BAB18600AFF0EE /* AudioToolbox.framework in Frameworks */,
 				A42F4BA117BAB00200AFF0EE /* CoreData.framework in Frameworks */,
 				A42F4BA217BAB00200AFF0EE /* Cocoa.framework in Frameworks */,
-				A42F4BA317BAB00200AFF0EE /* liblo.7.dylib in Frameworks */,
 				A42F4BA417BAB00200AFF0EE /* Python.framework in Frameworks */,
 				A42F4BA617BAB00200AFF0EE /* Carbon.framework in Frameworks */,
 				A47F3C0317BC1BF1001FEC19 /* QuickTime.framework in Frameworks */,
@@ -264,9 +272,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41ED1DE18679A1C0021AE3D /* liblo.dylib in Frameworks */,
 				A4B75D47176AB4690058B652 /* CoreData.framework in Frameworks */,
 				A4B75D44176A877D0058B652 /* Cocoa.framework in Frameworks */,
-				A4E3B3AC1763DC96007937D1 /* liblo.7.dylib in Frameworks */,
 				A45161F317618F90006A0CD4 /* Python.framework in Frameworks */,
 				A4B75D41176A86220058B652 /* QuickTime.framework in Frameworks */,
 				A4B75D45176A87A20058B652 /* Carbon.framework in Frameworks */,
@@ -304,7 +312,7 @@
 		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				A4E3B3AB1763DC96007937D1 /* liblo.7.dylib */,
+				A4458E6B18678E7D0026FA80 /* liblo.dylib */,
 				A4E3A4E7175E4B28002C14A0 /* Python.framework */,
 				A4B75D46176AB4680058B652 /* CoreData.framework */,
 				A4B75D43176A877C0058B652 /* Cocoa.framework */,
@@ -907,6 +915,11 @@
 			isa = PBXTargetDependency;
 			target = A417D5BA17F1D7390054BEC0 /* pyoplugMax */;
 			targetProxy = A417D5D917F1DC3D0054BEC0 /* PBXContainerItemProxy */;
+		};
+		A49CF21C180A42FC00F3E97C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A41AD01B17FCA16B00AE5D98 /* pyoplugPd */;
+			targetProxy = A49CF21B180A42FC00F3E97C /* PBXContainerItemProxy */;
 		};
 		A4D8F63117D4274100BC7BB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

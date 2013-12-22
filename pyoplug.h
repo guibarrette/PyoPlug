@@ -18,6 +18,8 @@
 #include <string>
 #include <dirent.h>
 #include <vector>
+#include <stdlib.h>     /* srand, rand */
+#include <time.h>       /* time */
 
 //#include "servermodule.h"
 #include "lo/lo.h"
@@ -94,12 +96,14 @@ public:
 private:  
     
     PyThreadState *pySubInterp;
+    PyThreadState *_save;
     double *pyoInputBuf;
     float *pyoInputBufFlt;
     float *pyoOutputBuf;
     
     int pyo64Imported;
     int pyoServerID;
+//    int pyoOSCPort;
 //    Server *pyo_Server;
     callPtr *pyoEmbed_callback;
     
@@ -112,12 +116,12 @@ private:
     int pyoIsPlaying;
     
     lo_address oscAddr;
-    char oscPort[5];
+//    char oscPort[5];
     char pyoScriptPreset[20];
     char serverSetParams[20];
     
     void getPyoAddresses(void);
-    void killSubInter(void);
+//    void killSubInter(void);
     void getFoldersList(void);
     void getScriptList(void);
     void setOSCMessages(void);
