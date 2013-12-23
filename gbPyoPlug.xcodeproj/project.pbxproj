@@ -35,10 +35,7 @@
 		A41ED1DF18679A9B0021AE3D /* liblo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4458E6B18678E7D0026FA80 /* liblo.dylib */; };
 		A41ED1E018679AA40021AE3D /* liblo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4458E6B18678E7D0026FA80 /* liblo.dylib */; };
 		A41ED1E118679AAE0021AE3D /* liblo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4458E6B18678E7D0026FA80 /* liblo.dylib */; };
-		A42F4BA117BAB00200AFF0EE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D46176AB4680058B652 /* CoreData.framework */; };
-		A42F4BA217BAB00200AFF0EE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D43176A877C0058B652 /* Cocoa.framework */; };
 		A42F4BA417BAB00200AFF0EE /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3A4E7175E4B28002C14A0 /* Python.framework */; };
-		A42F4BA617BAB00200AFF0EE /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
 		A42F4BAE17BAB18600AFF0EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42F4BAD17BAB18500AFF0EE /* AudioToolbox.framework */; };
 		A42F4BB017BAB18E00AFF0EE /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42F4BAF17BAB18E00AFF0EE /* AudioUnit.framework */; };
 		A42F4BB217BAB19700AFF0EE /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42F4BB117BAB19700AFF0EE /* CoreServices.framework */; };
@@ -85,16 +82,11 @@
 		A45161F117618F90006A0CD4 /* vstplugmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF51C90929F9C100DDED7A /* vstplugmain.cpp */; };
 		A45161F317618F90006A0CD4 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3A4E7175E4B28002C14A0 /* Python.framework */; };
 		A45161FD1761900D006A0CD4 /* pyoplugVST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A45161FA1761900D006A0CD4 /* pyoplugVST.cpp */; };
-		A47F3C0317BC1BF1001FEC19 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4476B78093DD675008998C4 /* QuickTime.framework */; };
 		A47F3C0C17BC2AEE001FEC19 /* pyoplug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD222517BAF20000B99058 /* pyoplug.cpp */; };
 		A47F3C0D17BC2AFD001FEC19 /* pyoplug.h in Headers */ = {isa = PBXBuildFile; fileRef = A4AD222617BAF20000B99058 /* pyoplug.h */; };
 		A47F3C0E17BC2BDE001FEC19 /* PyoPlugAU.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BB517BAB24F00AFF0EE /* PyoPlugAU.h */; };
 		A47F3C0F17BC2BEC001FEC19 /* PyoPlugAU-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A42F4B9017BAA5D800AFF0EE /* PyoPlugAU-Info.plist */; };
 		A47F3C1617BC4E28001FEC19 /* pyoplug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD222517BAF20000B99058 /* pyoplug.cpp */; };
-		A4B75D41176A86220058B652 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4476B78093DD675008998C4 /* QuickTime.framework */; };
-		A4B75D44176A877D0058B652 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D43176A877C0058B652 /* Cocoa.framework */; };
-		A4B75D45176A87A20058B652 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
-		A4B75D47176AB4690058B652 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B75D46176AB4680058B652 /* CoreData.framework */; };
 		F4EF438E0945D9CD001938AB /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
 		F4FF52FC092A314700DDED7A /* minihost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF52FA092A314700DDED7A /* minihost.cpp */; };
 		F4FF533D092A371400DDED7A /* minieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF52F9092A314700DDED7A /* minieditor.cpp */; };
@@ -260,11 +252,7 @@
 				A42F4BB217BAB19700AFF0EE /* CoreServices.framework in Frameworks */,
 				A42F4BB017BAB18E00AFF0EE /* AudioUnit.framework in Frameworks */,
 				A42F4BAE17BAB18600AFF0EE /* AudioToolbox.framework in Frameworks */,
-				A42F4BA117BAB00200AFF0EE /* CoreData.framework in Frameworks */,
-				A42F4BA217BAB00200AFF0EE /* Cocoa.framework in Frameworks */,
 				A42F4BA417BAB00200AFF0EE /* Python.framework in Frameworks */,
-				A42F4BA617BAB00200AFF0EE /* Carbon.framework in Frameworks */,
-				A47F3C0317BC1BF1001FEC19 /* QuickTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A41ED1DE18679A1C0021AE3D /* liblo.dylib in Frameworks */,
-				A4B75D47176AB4690058B652 /* CoreData.framework in Frameworks */,
-				A4B75D44176A877D0058B652 /* Cocoa.framework in Frameworks */,
 				A45161F317618F90006A0CD4 /* Python.framework in Frameworks */,
-				A4B75D41176A86220058B652 /* QuickTime.framework in Frameworks */,
-				A4B75D45176A87A20058B652 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
