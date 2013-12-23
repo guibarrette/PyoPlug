@@ -116,7 +116,7 @@ private:
     int pyoIsPlaying;
     
     lo_address oscAddr;
-//    char oscPort[5];
+    char oscPort[5];
     char pyoScriptPreset[20];
     char serverSetParams[20];
     
