@@ -87,7 +87,6 @@
 		A47F3C0E17BC2BDE001FEC19 /* PyoPlugAU.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F4BB517BAB24F00AFF0EE /* PyoPlugAU.h */; };
 		A47F3C0F17BC2BEC001FEC19 /* PyoPlugAU-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A42F4B9017BAA5D800AFF0EE /* PyoPlugAU-Info.plist */; };
 		A47F3C1617BC4E28001FEC19 /* pyoplug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD222517BAF20000B99058 /* pyoplug.cpp */; };
-		F4EF438E0945D9CD001938AB /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
 		F4FF52FC092A314700DDED7A /* minihost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF52FA092A314700DDED7A /* minihost.cpp */; };
 		F4FF533D092A371400DDED7A /* minieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FF52F9092A314700DDED7A /* minieditor.cpp */; };
 /* End PBXBuildFile section */
@@ -124,20 +123,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
-		A400A5A617D57DFE00E4D279 /* ScriptsPresets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScriptsPresets-Info.plist"; sourceTree = "<group>"; };
-		A400A5A817D57DFE00E4D279 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A400A5AA17D57DFE00E4D279 /* ScriptsPresets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScriptsPresets-Prefix.pch"; sourceTree = "<group>"; };
 		A417D5CD17F1D7390054BEC0 /* pyoplug~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pyoplug~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A417D5CF17F1D7730054BEC0 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = maxmspsdk.xcconfig; path = PyoPlugMax/maxmspsdk.xcconfig; sourceTree = SOURCE_ROOT; };
 		A417D5D017F1D7730054BEC0 /* pyoplugmax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pyoplugmax.cpp; path = PyoPlugMax/pyoplugmax.cpp; sourceTree = SOURCE_ROOT; };
 		A417D5D117F1D7730054BEC0 /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = "../../../Max/Max6-SDK/c74support/msp-includes/MaxAudioAPI.framework"; sourceTree = "<group>"; };
 		A41AD01317FC9E7B00AE5D98 /* pyoplugpd.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = pyoplugpd.xcconfig; path = PyoPlugPd/pyoplugpd.xcconfig; sourceTree = SOURCE_ROOT; };
 		A41AD01C17FCA16B00AE5D98 /* pyoplug~.pd_darwin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "pyoplug~.pd_darwin"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A42F4B8817BAA5D800AFF0EE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		A42F4B8B17BAA5D800AFF0EE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		A42F4B8C17BAA5D800AFF0EE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		A42F4B8D17BAA5D800AFF0EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A42F4B9017BAA5D800AFF0EE /* PyoPlugAU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PyoPlugAU-Info.plist"; sourceTree = "<group>"; };
 		A42F4B9217BAA5D800AFF0EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A42F4B9417BAA5D800AFF0EE /* PyoPlugAU-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PyoPlugAU-Prefix.pch"; sourceTree = "<group>"; };
@@ -196,8 +187,6 @@
 		A4AD222617BAF20000B99058 /* pyoplug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyoplug.h; sourceTree = "<group>"; };
 		A4B75D3A176A83850058B652 /* pyoeditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pyoeditor.cpp; path = editor/pyoeditor.cpp; sourceTree = "<group>"; };
 		A4B75D3B176A83850058B652 /* pyoeditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyoeditor.h; path = editor/pyoeditor.h; sourceTree = "<group>"; };
-		A4B75D43176A877C0058B652 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		A4B75D46176AB4680058B652 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A4C4C64817FC5DC7003CFAA7 /* m_pd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = m_pd.h; path = PyoPlugPd/m_pd.h; sourceTree = SOURCE_ROOT; };
 		A4C4C64917FC5DC7003CFAA7 /* pyoplugpd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pyoplugpd.cpp; path = PyoPlugPd/pyoplugpd.cpp; sourceTree = SOURCE_ROOT; };
 		A4D6A9C9176BEBD5008F75AC /* PyoPlugVST_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyoPlugVST_Prefix.pch; sourceTree = "<group>"; };
@@ -205,7 +194,6 @@
 		F4476AAC093DD4FB008998C4 /* aeffguieditor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = aeffguieditor.cpp; path = PyoPlugVST/vstsdk2.4/vstgui.sf/vstgui/aeffguieditor.cpp; sourceTree = SOURCE_ROOT; };
 		F4476AAD093DD4FB008998C4 /* vstcontrols.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstcontrols.cpp; path = PyoPlugVST/vstsdk2.4/vstgui.sf/vstgui/vstcontrols.cpp; sourceTree = SOURCE_ROOT; };
 		F4476AAE093DD4FB008998C4 /* vstgui.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstgui.cpp; path = PyoPlugVST/vstsdk2.4/vstgui.sf/vstgui/vstgui.cpp; sourceTree = SOURCE_ROOT; };
-		F4476B78093DD675008998C4 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
 		F4476B8B093DD81B008998C4 /* bmp00128.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = bmp00128.bmp; path = PyoPlugVST/editor/resources/bmp00128.bmp; sourceTree = SOURCE_ROOT; };
 		F4476B8C093DD81B008998C4 /* bmp00129.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = bmp00129.bmp; path = PyoPlugVST/editor/resources/bmp00129.bmp; sourceTree = SOURCE_ROOT; };
 		F4476B8D093DD81B008998C4 /* bmp00130.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = bmp00130.bmp; path = PyoPlugVST/editor/resources/bmp00130.bmp; sourceTree = SOURCE_ROOT; };
@@ -269,7 +257,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4EF438E0945D9CD001938AB /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +273,6 @@
 				A417D5B917F1D7050054BEC0 /* PyoPlugPd */,
 				A464F1A117D5716900FFD226 /* ScriptsPresets */,
 				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
-				A400A5A417D57DFE00E4D279 /* ScriptsPresets */,
-				A42F4B8717BAA5D800AFF0EE /* Frameworks */,
 				19C28FB4FE9D528D11CA2CBB /* Products */,
 			);
 			name = "vst 2.4 examples";
@@ -298,10 +283,6 @@
 			children = (
 				A4458E6B18678E7D0026FA80 /* liblo.dylib */,
 				A4E3A4E7175E4B28002C14A0 /* Python.framework */,
-				A4B75D46176AB4680058B652 /* CoreData.framework */,
-				A4B75D43176A877C0058B652 /* Cocoa.framework */,
-				F4476B78093DD675008998C4 /* QuickTime.framework */,
-				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
 				A42F4BB117BAB19700AFF0EE /* CoreServices.framework */,
 				A42F4BAF17BAB18E00AFF0EE /* AudioUnit.framework */,
 				A42F4BAD17BAB18500AFF0EE /* AudioToolbox.framework */,
@@ -331,24 +312,6 @@
 				A41AD01C17FCA16B00AE5D98 /* pyoplug~.pd_darwin */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A400A5A417D57DFE00E4D279 /* ScriptsPresets */ = {
-			isa = PBXGroup;
-			children = (
-				A400A5A517D57DFE00E4D279 /* Supporting Files */,
-			);
-			path = ScriptsPresets;
-			sourceTree = "<group>";
-		};
-		A400A5A517D57DFE00E4D279 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A400A5A617D57DFE00E4D279 /* ScriptsPresets-Info.plist */,
-				A400A5A717D57DFE00E4D279 /* InfoPlist.strings */,
-				A400A5AA17D57DFE00E4D279 /* ScriptsPresets-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		A417D5B817F1D6F40054BEC0 /* PyoPlugMax */ = {
@@ -382,25 +345,6 @@
 				F4476AA3093DCFB0008998C4 /* vstgui */,
 			);
 			name = "VST-SDK";
-			sourceTree = "<group>";
-		};
-		A42F4B8717BAA5D800AFF0EE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A42F4B8817BAA5D800AFF0EE /* Cocoa.framework */,
-				A42F4B8A17BAA5D800AFF0EE /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A42F4B8A17BAA5D800AFF0EE /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A42F4B8B17BAA5D800AFF0EE /* AppKit.framework */,
-				A42F4B8C17BAA5D800AFF0EE /* CoreData.framework */,
-				A42F4B8D17BAA5D800AFF0EE /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		A42F4B8E17BAA5D800AFF0EE /* PyoPlugAU */ = {
@@ -918,14 +862,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A400A5A717D57DFE00E4D279 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A400A5A817D57DFE00E4D279 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		A42F4B9117BAA5D800AFF0EE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
